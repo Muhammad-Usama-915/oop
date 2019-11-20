@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+ float radius; // declaration of a program 
+
+ cout << "Enter the circle radius: "; 
+ cin >> radius;
+
+ cout<<"diameter is"<<radius*2.0;
+ cout<<"circumstance is"<<3.1459*2*radius;
+ cout<<" area is here"<<3.1459*radius*radius;
+
+ return 0;
+ }
